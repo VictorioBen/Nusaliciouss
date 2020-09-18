@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">AdminPanels</string>
+    <string name="halo">Halo,</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="data_user">Data User</string>
+    <string name="list_user">List User</string>
+    <string name="tambah_menu">Tambah Menu</string>
+    <string name="add_menu">Add Menu</string>
+    <string name="data_menu">Data Menu</string>
+    <string name="list_menu">List Menu</string>
+    <string name="transaksi_pesanan">Transaksi Pesanan</string>
+    <string name="transaksi">Transaksi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="todo">TODO</string>
+    <string name="copyright_2020_nusalicious">Copyright 2020 Nusalicious</string>
+    <string name="nusalicious">Nusalicious</string>
+    <string name="register">Register</string>
+    <string name="register_1">REGISTER</string>
+    <string name="name">Name</string>
+    <string name="nama_paket">Nama Paket</string>
+    <string name="isi_menu">Isi menu</string>
+    <string name="harga">Harga</string>
+    <string name="minimal_order">Minimal Order</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="choose_picture">Choose Picture</string>
+    <string name="save_data">Save Data</string>
+    <string name="loading">Loading. . .</string>
+    <string name="data_income">Data Income</string>
+    <string name="total_income">Total Income</string>
+    <string name="text_selesai">Selesai = Pembayaran telah masuk dan \npesanan akan diproses.</string>
+    <string name="text_batal">Batalkan = Transaksi dibatalkan oleh user\natau dari pihak katering</string>
+    <string name="text_note">Note :</string>
+    <string name="order">Order</string>
+    <string name="list_order">List Order</string>
+    <string name="ubah_nama_paket">Ubah nama paket</string>
+    <string name="ubah_deskripsi">Ubah deskripsi</string>
+    <string name="ubah_harga">Ubah harga</string>
+    <string name="edit_menu">Edit Menu</string>
+    <string-array name="setStatus">
+        <item>Sedang disiapkan</item>
+        <item>Telah dikirim</item>
+        <item>Telah Selesai</item>
+    </string-array>
+</resources>

@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "762989226338",
+    "firebase_url": "https://nusalicious-ed650.firebaseio.com",
+    "project_id": "nusalicious-ed650",
+    "storage_bucket": "nusalicious-ed650.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762989226338:android:2413c268684d5ebdcd243b",
+        "android_client_info": {
+          "package_name": "com.workspace.adminpanel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762989226338-3hl0d2e4q4go980elaapqj9mfojkqs62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChQf8PAJIfhooG0Wyb5fkOiR82lbv_LGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762989226338-3hl0d2e4q4go980elaapqj9mfojkqs62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762989226338:android:fde853a38407edbdcd243b",
+        "android_client_info": {
+          "package_name": "com.workspace.nusal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762989226338-87ccq6q7tlrpe8e0t6jr0e9f14pp6mju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.workspace.nusal",
+            "certificate_hash": "d49f3f4c33bdd9636d7608c74c95d528038aa490"
+          }
+        },
+        {
+          "client_id": "762989226338-3hl0d2e4q4go980elaapqj9mfojkqs62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChQf8PAJIfhooG0Wyb5fkOiR82lbv_LGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762989226338-3hl0d2e4q4go980elaapqj9mfojkqs62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762989226338:android:60c2a98ef0acf7f2cd243b",
+        "android_client_info": {
+          "package_name": "com.workspace.nusali"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762989226338-sbohm7f06r5rqv19lr3c2ruamvj0h8se.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.workspace.nusali",
+            "certificate_hash": "ddadd01a8cb54e5465f24ea074170a7d69d04b13"
+          }
+        },
+        {
+          "client_id": "762989226338-3hl0d2e4q4go980elaapqj9mfojkqs62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChQf8PAJIfhooG0Wyb5fkOiR82lbv_LGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762989226338-3hl0d2e4q4go980elaapqj9mfojkqs62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navHome"
+        android:title="@string/home"
+        android:icon="@drawable/home" />
+    <item
+        android:id="@+id/navOrder"
+        android:title="@string/order"
+        android:icon="@drawable/order"/>
+    <item
+        android:id="@+id/navChart"
+        android:title="@string/chart"
+        android:icon="@drawable/basket2"/>
+    <item
+        android:id="@+id/navPayment"
+        android:title="@string/payment"
+        android:icon="@drawable/ic_payment"/>
+    <item
+        android:id="@+id/navAccount"
+        android:title="@string/account"
+        android:icon="@drawable/person"/>
+</menu>

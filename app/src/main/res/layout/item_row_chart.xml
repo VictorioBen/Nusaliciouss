@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    app:cardElevation="5dp"
+    app:cardBackgroundColor="#EBEBEB">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/title_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/Title"
+            android:textColor="#000"
+            android:textSize="14sp"
+            tools:ignore="RelativeOverlap" />
+
+        <TextView
+            android:id="@+id/text_Rp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_chart"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="7dp"
+            android:text="Rp."
+            android:textColor="#000"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText,RelativeOverlap" />
+
+        <TextView
+            android:id="@+id/price_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_chart"
+            android:layout_marginTop="7dp"
+            android:layout_toEndOf="@id/text_Rp"
+            android:text="15000"
+            android:textColor="#000"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText,RelativeOverlap" />
+
+        <TextView
+            android:id="@+id/katering_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_Rp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:text="Dpawon"
+            android:textColor="@color/RedDark"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText,RelativeOverlap" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time_chart"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="100sp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="22dp"
+            android:text="Edit"
+            android:textColor="@color/Green_natural"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:id="@+id/quantity_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="22dp"
+            android:text="Edit"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/date_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quantity_chart"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="100sp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="22dp"
+            android:text="Waktu: 10.30"
+            android:textColor="#000"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/time_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date_chart"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="100sp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="22dp"
+            android:text="Dpawon"
+            android:textColor="#000"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,104 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Button Clicked-->
+    <style name="buttonstyle" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#000</item>
+        <item name="colorButtonNormal">#BC2E2E</item>
+    </style>
+
+    <style name="button_red">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@drawable/shape_order</item>
+        <item name="textSize">18sp</item>
+    </style>
+
+    <style name="welcome">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">320dp</item>
+        <item name="fontFamily">monospace</item>
+        <item name="android:text">@string/welcome</item>
+        <item name="android:textAlignment">center</item>
+        <item name="textColor">@color/welcome_register</item>
+        <item name="textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="btn_welcome">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:text">@string/login</item>
+        <item name="android:background">@drawable/shape_order</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="btn_register">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:text">@string/register</item>
+        <item name="android:background">@drawable/shape_order</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="outlineBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">#D6D6D6</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="height">55dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+    </style>
+
+    <style name="carousel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="fillColor">@color/RedDark</item>
+        <item name="pageColor">@color/Pink</item>
+        <item name="radius">5dp</item>
+        <item name="indicatorVisibility">visible</item>
+        <item name="slideInterval">3000</item>
+        <item name="strokeColor">#CDCDCD</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="gridAccount">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/carousel</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_weight">6</item>
+        <item name="columnCount">4</item>
+        <item name="rowCount">2</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="progressTheme">
+        <item name="colorAccent">@color/colorProgressbar</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    
+    <style name="AppTheme.DarkActionBar">
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="colorPrimary">@color/Red</item>
+    </style>
+
+</resources>

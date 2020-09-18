@@ -1,0 +1,3 @@
+include ':adminpanels'
+include ':app'
+rootProject.name = "Nusaliciouss"

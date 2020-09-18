@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB"
+    tools:context=".Activity.DeliveryLocationActivity">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/scrollscreen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="35dp">
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="310dp"
+                android:background="@color/Pink"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:fontFamily="@font/reg"
+                android:text="Update Profile"
+                android:textColor="#FFF"
+                android:textSize="22sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/reg"
+                android:text="Lengkapi Informasi pengantaranmu \n untuk memudahkan pengiriman"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="152dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:background="@drawable/bg_layout_white"
+                android:orientation="vertical"
+                android:paddingTop="30dp"
+                android:paddingBottom="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:fontFamily="@font/mlight"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Nama Penerima"
+                        android:textColor="#FF4671"
+                        android:textSize="16sp"
+                        tools:ignore="HardcodedText" />
+
+
+                    <EditText
+                        android:id="@+id/nama_delivery"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/bg_waktu_nonaktif"
+                        android:fontFamily="@font/medium"
+                        android:hint="Mang Kabayan"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:paddingStart="12dp"
+                        android:textSize="17sp"
+                        android:textColor="@android:color/black"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:fontFamily="@font/mlight"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/number_phone"
+                        android:textColor="#FF4671"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/nomer_delivery"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/bg_waktu_nonaktif"
+                        android:fontFamily="@font/medium"
+                        android:hint="087788661921"
+                        android:maxLength="12"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:textSize="17sp"
+                        android:paddingLeft="12dp"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:fontFamily="@font/mlight"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Alamat Penerima"
+                        android:textColor="#FF4671"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/alamat_delivery"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/bg_waktu_nonaktif"
+                        android:fontFamily="@font/medium"
+                        android:hint="jl fajar baru nomer \n 12 a"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:textSize="17sp"
+                        android:paddingStart="12dp"
+                        android:textColor="@android:color/black"
+                        tools:ignore="RtlSymmetry" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+
+                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:fontFamily="@font/mlight"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Petunjuk Lokasi"
+                        android:textColor="#FF4671"
+                        android:textSize="16sp"
+                        tools:ignore="HardcodedText" />
+
+                    <EditText
+                        android:id="@+id/hint_delivery"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/bg_waktu_nonaktif"
+                        android:fontFamily="@font/medium"
+                        android:hint="@string/hint"
+                        android:inputType="text"
+                        android:textSize="17sp"
+                        android:lines="1"
+                        android:paddingStart="12dp"
+                        android:textColor="@android:color/black"
+                        tools:ignore="RtlSymmetry" />
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="168dp"
+                android:layout_height="108dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/img2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
+
+
+            <Button
+                android:id="@+id/btn_delivery"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginEnd="17dp"
+                android:background="@color/Red"
+                android:fontFamily="@font/medium"
+                android:text="Simpan"
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:id="@+id/btn_back2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlHardcoded">
+
+            </LinearLayout>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

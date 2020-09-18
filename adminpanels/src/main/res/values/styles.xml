@@ -1,0 +1,33 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/black</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="color">@android:color/white</item>
+        <item name="titleTextColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="colorAccent">#fff</item>
+        <item name="android:background">@color/colorTop</item>
+    </style>
+    <style name="outline_box" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+       <item name="boxStrokeColor">@color/colorTop</item>
+        <item name="colorAccent">@android:color/black</item>
+       <item name="android:layout_marginTop">8dp</item>
+       <item name="android:layout_marginLeft">20dp</item>
+       <item name="android:layout_marginRight">20dp</item>
+    </style>
+    <style name="progressTheme">
+        <item name="colorAccent">@color/colorTop</item>
+    </style>
+
+</resources>

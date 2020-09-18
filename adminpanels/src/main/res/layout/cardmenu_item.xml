@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="8dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/imgMenuItem2"
+            android:layout_width="75dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_marginLeft="15dp"/>
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/ic_baseline_delete_24" />
+        <TextView
+            android:id="@+id/textNamaMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/imgMenuItem2"
+            android:textStyle="bold"
+            android:text="Nama"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/textDescMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textNamaMenu"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_toEndOf="@id/imgMenuItem2"
+            android:visibility="gone"
+            android:text="Descripsi"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textHargaMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_toEndOf="@id/imgMenuItem2"
+            android:layout_below="@+id/textNamaMenu"
+            android:layout_marginTop="3dp"
+            android:text="Harga"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textHargaMenu"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="50dp"
+            android:layout_toEndOf="@+id/imgMenuItem2"
+            android:text="Kategori"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textMinimum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textHargaMenu"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="50dp"
+            android:layout_toEndOf="@+id/imgMenuItem2"
+            android:text="Minimum Order"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/textKeterangann"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textHargaMenu"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="50dp"
+            android:layout_toEndOf="@+id/imgMenuItem2"
+            android:text="Keterangan"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/textCatering"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textCat"
+            android:layout_alignStart="@+id/textCat"
+            android:layout_alignEnd="@+id/textCat"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="0dp"
+            android:visibility="gone"
+            android:text="Katering" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

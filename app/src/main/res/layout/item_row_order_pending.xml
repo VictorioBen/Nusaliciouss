@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="6dp"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_no_order"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="ID PESANAN : "
+            android:background="@color/Pink"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/nomer_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="123220"
+            android:textColor="@android:color/black"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/title_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/title_menu"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/quantity_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_below="@id/tv_no_order"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/black"
+            android:text="@string/_100_pcs"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/date_delivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_order"
+            android:text="@string/date"/>
+
+        <TextView
+            android:id="@+id/time_delivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_below="@id/title_order"
+            android:layout_marginTop="2dp"
+            android:text="@string/waktu"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/tv_rp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time_delivery"
+            android:text="Harga :"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/price_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_below="@id/time_delivery"
+            android:layout_toEndOf="@id/tv_rp"
+            android:text="@string/harga"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Status Pengiriman : "
+            android:textStyle="bold"
+            android:layout_below="@id/tv_rp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/delivery_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_below="@id/tv_rp"
+            android:text="Dalam Proses"
+            android:textColor="@color/Orange_Retro"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <Button
+                android:id="@+id/btn_finish"
+                android:background="@drawable/bg_btn_orange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Orange"
+                android:text="Selesai"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tv_status"
+                android:textSize="12sp"
+                tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
